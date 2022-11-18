@@ -1,0 +1,39 @@
+.logo_WS {
+  position: absolute;
+  left: 215px;
+  top: 32px;
+  font-family: 'Raleway';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 31px;
+  letter-spacing: 0.03em;
+  display: inline-block;
+}
+.logo_blue {
+  color: #2196f3;
+}
+.header_list > li {
+  display: inline-block;
+}
+.header_list {
+  position: absolute;
+  left: 453px;
+  top: 32px;
+  font-size: 14px;
+  justify-content: space-between;
+}
+.header_kontakt {
+  position: absolute;
+  left: 1078px;
+  top: 32px;
+}
+.header_kontakt > a {
+  display: inline-block;
+}
+header {
+  width: 1600px;
+  height: 80px;
+  border: 2px solid;
+  text-align: center;
+}

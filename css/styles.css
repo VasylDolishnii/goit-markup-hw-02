@@ -1,39 +1,187 @@
-.logo_WS {
-  position: absolute;
-  left: 215px;
-  top: 32px;
-  font-family: 'Raleway';
-  font-style: normal;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 31px;
-  letter-spacing: 0.03em;
-  display: inline-block;
+main {
+  max-width: 1600px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.logo_blue {
-  color: #2196f3;
-}
-.header_list > li {
-  display: inline-block;
-}
-.header_list {
-  position: absolute;
-  left: 453px;
-  top: 32px;
-  font-size: 14px;
-  justify-content: space-between;
-}
-.header_kontakt {
-  position: absolute;
-  left: 1078px;
-  top: 32px;
-}
-.header_kontakt > a {
-  display: inline-block;
+a {
+  text-decoration: none;
 }
 header {
   width: 1600px;
   height: 80px;
-  border: 2px solid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: -9px;
+}
+.logo_WS {
+  font-family: 'Raleway';
+  font-size: 26px;
+  letter-spacing: 0.03em;
+  margin-left: 215px;
+  display: inline-block;
+  margin-top: 24px;
+}
+.logo_blue {
+  color: #2196f3;
+}
+.header_list {
+  font-size: 14px;
+  padding-left: 93px;
+}
+.header_list > li {
+  display: inline-block;
+  padding-right: 46px;
+}
+header > nav {
+  display: inline-block;
+}
+.header_kontakt {
+  float: right;
+  font-size: 14px;
+  margin-right: 177px;
+  margin-top: 36px;
+}
+.header_kontakt > a {
+  padding-right: 50px;
+}
+.title_section {
+  font-family: 'Roboto';
+  height: 600px;
+  background: #2f303a;
   text-align: center;
+  margin-top: -38px;
+}
+.title_section > h1 {
+  width: 696px;
+  font-size: 44px;
+  line-height: 60px;
+  letter-spacing: 0.06em;
+  color: rgb(255, 255, 255);
+  padding-top: 200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title_section > button {
+  font-family: 'Roboto';
+  width: 200px;
+  height: 50px;
+  background: rgb(33, 150, 243);
+  box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
+  border-radius: 4px;
+  margin-top: -7px;
+}
+.Our_Advantages > h2 {
+  display: none;
+}
+.Our_Advantages {
+  margin-left: 215px;
+  font-family: 'Roboto';
+  font-size: 14px;
+}
+.OA_list {
+  display: inline-block;
+}
+.OA_list > h3 {
+  letter-spacing: 0.03em;
+}
+.OA_list > p {
+  width: 270px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: #757575;
+  padding-right: 30px;
+}
+.what_we_do {
+  margin-top: 94px;
+  margin-bottom: 94px;
+  text-align: center;
+}
+.what_we_do > h2 {
+  font-family: 'Roboto';
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.WWD_list {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 26px;
+}
+.our_team {
+  height: 648px;
+  text-align: center;
+  background-color: #f5f4fa;
+}
+.our_team > h2 {
+  padding-top: 94px;
+  padding-bottom: 10px;
+  font-family: 'Roboto';
+  font-size: 36px;
+  letter-spacing: 0.03em;
+}
+.OT_list {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 26px;
+  background: #ffffff;
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
+    0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
+}
+footer {
+  width: 1600px;
+  height: 252px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #2f303a;
+  font-family: 'Roboto';
+  line-height: 24px;
+}
+footer > .logo_WS {
+  color: #ffffff;
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+address > a {
+  display: block;
+  margin-left: 215px;
+  color: #ffffff;
+  margin-bottom: 9px;
+}
+.title_button {
+  text-align: center;
+}
+.TB_list {
+  display: inline-block;
+}
+.TB_list > button {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 16px;
+  display: inline-block;
+  height: 38px;
+  background: #f5f4fa;
+  border-radius: 4px;
+  margin-right: 4px;
+  border: none;
+}
+.portfolio_list {
+  font-family: 'Roboto';
+  font-weight: 700;
+  font-size: 18px;
+  text-align: center;
+}
+.Port_list {
+  display: inline-block;
+  margin-top: 20px;
+  margin-right: 26px;
+  box-sizing: border-box;
+  background: #ffffff;
+  border: 1px solid #eeeeee;
+}
+.Port_list > p {
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }

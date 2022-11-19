@@ -32,6 +32,9 @@ header {
   display: inline-block;
   padding-right: 46px;
 }
+.header_list > li > a:hover {
+  color: #2196f3;
+}
 header > nav {
   display: inline-block;
 }
@@ -43,6 +46,10 @@ header > nav {
 }
 .header_kontakt > a {
   padding-right: 50px;
+  color: #757575;
+}
+.header_kontakt > a:hover {
+  color: #2196f3;
 }
 .title_section {
   font-family: 'Roboto';
@@ -108,16 +115,22 @@ header > nav {
   margin-right: 26px;
 }
 .our_team {
+  font-family: 'Roboto';
   height: 648px;
   text-align: center;
   background-color: #f5f4fa;
 }
 .our_team > h2 {
+  font-weight: 500;
   padding-top: 94px;
   padding-bottom: 10px;
-  font-family: 'Roboto';
   font-size: 36px;
   letter-spacing: 0.03em;
+}
+.our_team > p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }
 .OT_list {
   display: inline-block;
@@ -148,6 +161,9 @@ address > a {
   color: #ffffff;
   margin-bottom: 9px;
 }
+address > a:hover {
+  color: #2196f3;
+}
 .title_button {
   text-align: center;
 }
@@ -165,6 +181,10 @@ address > a {
   margin-right: 4px;
   border: none;
 }
+.TB_list > button:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
 .portfolio_list {
   font-family: 'Roboto';
   font-weight: 700;
@@ -172,6 +192,7 @@ address > a {
   text-align: center;
 }
 .Port_list {
+  text-align: left;
   display: inline-block;
   margin-top: 20px;
   margin-right: 26px;
@@ -179,9 +200,13 @@ address > a {
   background: #ffffff;
   border: 1px solid #eeeeee;
 }
+.Port_list > h3 {
+  padding-left: 24px;
+}
 .Port_list > p {
   font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
   color: #757575;
+  padding-left: 24px;
 }

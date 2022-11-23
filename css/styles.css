@@ -1,3 +1,10 @@
+body {
+  display: block;
+  margin: 8px;
+  font-family: 'Roboto';
+  background-color: #ffffff;
+  color: rgba(21, 21, 21);
+}
 main {
   max-width: 1600px;
   margin-left: auto;

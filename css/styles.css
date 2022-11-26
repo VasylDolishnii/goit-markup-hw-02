@@ -1,20 +1,18 @@
 body {
+  max-width: 1600px;
   display: block;
   margin: 8px;
   font-family: 'Roboto';
   background-color: #ffffff;
-  color: rgba(21, 21, 21);
-}
-main {
-  max-width: 1600px;
-  margin-left: auto;
-  margin-right: auto;
+  color: #212121;
+  font-size: 14px;
+  letter-spacing: 0.03em;
+  margin: 0 auto;
 }
 a {
   text-decoration: none;
 }
 header {
-  width: 1600px;
   height: 80px;
   margin-left: auto;
   margin-right: auto;
@@ -23,31 +21,35 @@ header {
 .logo_WS {
   font-family: 'Raleway';
   font-size: 26px;
-  letter-spacing: 0.03em;
   margin-left: 215px;
   display: inline-block;
   margin-top: 24px;
+  color: #000000;
 }
 .logo_blue {
   color: #2196f3;
 }
-.header_list {
+.header_link {
+  font-weight: 500;
   font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+}
+.header_link:hover {
+  color: #2196f3;
+}
+.header_list {
   padding-left: 93px;
 }
 .header_list > li {
   display: inline-block;
   padding-right: 46px;
 }
-.header_list > li > a:hover {
-  color: #2196f3;
-}
 header > nav {
   display: inline-block;
 }
 .header_kontakt {
   float: right;
-  font-size: 14px;
   margin-right: 177px;
   margin-top: 36px;
 }
@@ -59,7 +61,6 @@ header > nav {
   color: #2196f3;
 }
 .title_section {
-  font-family: 'Roboto';
   height: 600px;
   background: #2f303a;
   text-align: center;
@@ -68,41 +69,44 @@ header > nav {
 .title_section > h1 {
   width: 696px;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.36;
   letter-spacing: 0.06em;
   color: rgb(255, 255, 255);
   padding-top: 200px;
   margin-left: auto;
   margin-right: auto;
+  font-weight: 900;
 }
 .title_section > button {
-  font-family: 'Roboto';
   width: 200px;
   height: 50px;
-  background: rgb(33, 150, 243);
-  box-shadow: rgb(0 0 0 / 15%) 0px 4px 4px;
+  background: #2196f3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: -7px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
 }
 .Our_Advantages > h2 {
   display: none;
 }
 .Our_Advantages {
   margin-left: 215px;
-  font-family: 'Roboto';
-  font-size: 14px;
 }
 .OA_list {
   display: inline-block;
-}
-.OA_list > h3 {
-  letter-spacing: 0.03em;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
 }
 .OA_list > p {
   width: 270px;
   font-weight: 400;
-  line-height: 24px;
-  letter-spacing: 0.03em;
+  font-size: 14px;
+  line-height: 1.71;
   color: #757575;
   padding-right: 30px;
 }
@@ -112,9 +116,9 @@ header > nav {
   text-align: center;
 }
 .what_we_do > h2 {
-  font-family: 'Roboto';
+  font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.03em;
+  line-height: 1.16;
 }
 .WWD_list {
   display: inline-block;
@@ -122,23 +126,18 @@ header > nav {
   margin-right: 26px;
 }
 .our_team {
-  font-family: 'Roboto';
   height: 648px;
   text-align: center;
   background-color: #f5f4fa;
 }
 .our_team > h2 {
-  font-weight: 500;
   padding-top: 94px;
   padding-bottom: 10px;
+  font-weight: 700;
   font-size: 36px;
-  letter-spacing: 0.03em;
+  line-height: 1.16;
 }
-.our_team > p {
-  font-weight: 400;
-  font-size: 16px;
-  color: #757575;
-}
+
 .OT_list {
   display: inline-block;
   margin-top: 20px;
@@ -147,6 +146,14 @@ header > nav {
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.18;
+}
+.OT_list > p {
+  font-weight: 400;
+  font-size: 16px;
+  color: #757575;
 }
 footer {
   width: 1600px;
@@ -154,7 +161,6 @@ footer {
   margin-left: auto;
   margin-right: auto;
   background: #2f303a;
-  font-family: 'Roboto';
   line-height: 24px;
 }
 footer > .logo_WS {
@@ -162,10 +168,18 @@ footer > .logo_WS {
   margin-top: 60px;
   margin-bottom: 20px;
 }
+.map_address {
+  color: #ffffff;
+}
+.contact_info {
+  color: rgba(255, 255, 255, 0.6);
+}
 address > a {
   display: block;
   margin-left: 215px;
-  color: #ffffff;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.71;
   margin-bottom: 9px;
 }
 address > a:hover {
@@ -178,9 +192,9 @@ address > a:hover {
   display: inline-block;
 }
 .TB_list > button {
-  font-family: 'Roboto';
   font-weight: 500;
   font-size: 16px;
+  line-height: 1.62;
   display: inline-block;
   height: 38px;
   background: #f5f4fa;
@@ -193,7 +207,6 @@ address > a:hover {
   color: #ffffff;
 }
 .portfolio_list {
-  font-family: 'Roboto';
   font-weight: 700;
   font-size: 18px;
   text-align: center;
@@ -209,11 +222,15 @@ address > a:hover {
 }
 .Port_list > h3 {
   padding-left: 24px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
 }
 .Port_list > p {
-  font-family: 'Roboto';
   font-weight: 400;
   font-size: 16px;
+  line-height: 1.88;
   color: #757575;
   padding-left: 24px;
 }

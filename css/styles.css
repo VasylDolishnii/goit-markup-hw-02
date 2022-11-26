@@ -207,6 +207,7 @@ address > a:hover {
   margin-right: 4px;
   border: none;
   cursor: pointer;
+  letter-spacing: 0.03em;
 }
 .TB_list > button:hover {
   background-color: #2196f3;

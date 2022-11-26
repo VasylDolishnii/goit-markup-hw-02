@@ -89,6 +89,7 @@ header > nav {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 .Our_Advantages > h2 {
   display: none;
@@ -185,6 +186,9 @@ address > a {
 address > a:hover {
   color: #2196f3;
 }
+
+/* ⬇ <<PORTFOLIO>> ⬇ */
+
 .title_button {
   text-align: center;
 }
@@ -201,6 +205,7 @@ address > a:hover {
   border-radius: 4px;
   margin-right: 4px;
   border: none;
+  cursor: pointer;
 }
 .TB_list > button:hover {
   background-color: #2196f3;

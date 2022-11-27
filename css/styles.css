@@ -1,3 +1,6 @@
+:root {
+  --link_and_button_color: #2196f3;
+}
 body {
   max-width: 1600px;
   display: block;
@@ -17,6 +20,7 @@ header {
   margin-left: auto;
   margin-right: auto;
   margin-top: -9px;
+  border-bottom: 1px solid #ececec;
 }
 .logo_WS {
   font-family: 'Raleway';
@@ -37,7 +41,7 @@ header {
   color: #212121;
 }
 .header_link:hover {
-  color: #2196f3;
+  color: var(--link_and_button_color);
 }
 .header_list {
   padding-left: 93px;
@@ -59,7 +63,7 @@ header > nav {
   color: #757575;
 }
 .header_kontakt > a:hover {
-  color: #2196f3;
+  color: var(--link_and_button_color);
 }
 .title_section {
   height: 600px;
@@ -81,7 +85,7 @@ header > nav {
 .title_section > button {
   width: 200px;
   height: 50px;
-  background: #2196f3;
+  background: var(--link_and_button_color);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   margin-top: -7px;
@@ -193,6 +197,9 @@ address > a:hover {
 .title_button {
   text-align: center;
 }
+.title_button > h1 {
+  display: none;
+}
 .TB_list {
   display: inline-block;
 }
@@ -208,9 +215,10 @@ address > a:hover {
   border: none;
   cursor: pointer;
   letter-spacing: 0.03em;
+  font-family: inherit;
 }
 .TB_list > button:hover {
-  background-color: #2196f3;
+  background-color: var(--link_and_button_color);
   color: #ffffff;
 }
 .portfolio_list {

@@ -2,7 +2,6 @@
   --link_and_button_color: #2196f3;
 }
 body {
-  max-width: 1600px;
   display: block;
   margin: 8px;
   font-family: 'Roboto';
@@ -196,6 +195,7 @@ address > a:hover {
 
 .title_button {
   text-align: center;
+  max-width: 1170px;
 }
 .title_button > h1 {
   display: none;

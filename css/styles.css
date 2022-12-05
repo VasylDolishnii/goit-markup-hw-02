@@ -1,10 +1,12 @@
 :root {
   --link_and_button_color: #2196f3;
+  --letters_and_logo_color_black: #212121;
+  --letters_and_logo_color_white: #ffffff;
 }
 body {
   font-family: 'Roboto';
-  background-color: #ffffff;
-  color: #212121;
+  background-color: var(--letters_and_logo_color_white);
+  color: var(--letters_and_logo_color_black);
   font-size: 14px;
   letter-spacing: 0.03em;
 }
@@ -17,7 +19,7 @@ header {
 .logo_WS {
   font-family: 'Raleway';
   font-size: 26px;
-  color: #000000;
+  color: var(--letters_and_logo_color_black);
 }
 .logo_blue {
   color: var(--link_and_button_color);
@@ -28,7 +30,7 @@ header {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #212121;
+  color: var(--letters_and_logo_color_black);
   display: inline-block;
 }
 .header_link:hover {
@@ -55,7 +57,7 @@ header {
   font-size: 44px;
   line-height: 1.36;
   letter-spacing: 0.06em;
-  color: rgb(255, 255, 255);
+  color: var(--letters_and_logo_color_white);
   font-weight: 900;
   white-space: pre-wrap;
 }
@@ -67,21 +69,33 @@ header {
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
-  color: #ffffff;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  color: var(--letters_and_logo_color_white);
+  box-shadow: 0px 4px 4px var(--letters_and_logo_color_black);
   border-radius: 4px;
   background-color: var(--link_and_button_color);
   cursor: pointer;
 }
 .Our_Advantages > h2 {
-  visibility: hidden;
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: normal;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
 }
 .OA_list {
   display: inline-block;
 }
 .OA_list > h3 {
   font-weight: 700;
+  font-size: 14px;
   line-height: 1.14;
+  letter-spacing: 0.03em;
 }
 .OA_list > p {
   width: 270px;
@@ -95,6 +109,7 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .our_team {
   display: inline-block;
@@ -107,6 +122,7 @@ header {
   font-weight: 700;
   font-size: 36px;
   line-height: 1.16;
+  letter-spacing: 0.03em;
 }
 .OT_list {
   display: inline-block;
@@ -115,25 +131,33 @@ header {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
+  letter-spacing: 0.03em;
 }
 .OT_list > p {
   font-size: 16px;
   color: #757575;
+  letter-spacing: 0.03em;
 }
 footer {
   background: #2f303a;
   line-height: 24px;
 }
 footer > .logo_WS {
-  color: #ffffff;
+  color: var(--letters_and_logo_color_white);
 }
 .map_address {
-  color: #ffffff;
+  color: var(--letters_and_logo_color_white);
 }
 .contact_info {
-  color: rgba(255, 255, 255, 0.6);
+  color: #999999;
 }
-address > a {
+address {
+  font-style: normal;
+}
+address > ul {
+  list-style-type: none;
+}
+.footer_a_style {
   display: block;
   font-size: 14px;
   line-height: 1.71;
@@ -157,7 +181,8 @@ address > a:hover {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.62;
-  background: #f5f4fa;
+  background-color: #f5f4fa;
+  color: var(--letters_and_logo_color_black);
   border: none;
   cursor: pointer;
   letter-spacing: 0.03em;
@@ -165,7 +190,7 @@ address > a:hover {
 }
 .TB_list > button:hover {
   background-color: var(--link_and_button_color);
-  color: #ffffff;
+  color: var(--letters_and_logo_color_white);
 }
 .portfolio_list {
   font-weight: 700;
@@ -176,7 +201,7 @@ address > a:hover {
   width: 370px;
   height: 404px;
   text-align: left;
-  background: #ffffff;
+  background-color: var(--letters_and_logo_color_white);
   border: 1px solid #eeeeee;
 }
 .Port_list > h3 {
@@ -189,4 +214,5 @@ address > a:hover {
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
+  letter-spacing: 0.03em;
 }

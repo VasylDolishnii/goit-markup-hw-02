@@ -11,6 +11,9 @@ body {
 a {
   text-decoration: none;
 }
+header {
+  border: 1px solid #ececec;
+}
 .logo_WS {
   font-family: 'Raleway';
   font-size: 26px;
@@ -19,9 +22,7 @@ a {
 .logo_blue {
   color: var(--link_and_button_color);
 }
-.header_list {
-  display: inline-block;
-}
+
 .header_link {
   font-weight: 500;
   font-size: 14px;
@@ -35,9 +36,16 @@ a {
 }
 .header_kontakt > a {
   color: #757575;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
 }
 .header_kontakt > a:hover {
   color: var(--link_and_button_color);
+}
+.header_list > li {
+  display: inline-block;
 }
 .title_section {
   background: #2f303a;
@@ -53,6 +61,9 @@ a {
   white-space: pre-wrap;
 }
 .title_section > button {
+  width: 200px;
+  height: 50px;
+  font-family: 'Roboto';
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -67,16 +78,19 @@ a {
   visibility: hidden;
 }
 .OA_list {
+  display: inline-block;
+}
+.OA_list > h3 {
   font-weight: 700;
-  font-size: 14px;
   line-height: 1.14;
 }
 .OA_list > p {
-  font-weight: 400;
-  font-size: 14px;
+  width: 270px;
   line-height: 1.71;
   color: #757575;
-  white-space: pre;
+}
+.WWD_list {
+  display: inline-block;
 }
 .what_we_do > h2 {
   font-weight: 700;
@@ -84,6 +98,8 @@ a {
   line-height: 1.16;
 }
 .our_team {
+  display: inline-block;
+  text-align: center;
   background-color: #f5f4fa;
 }
 .our_team > h2 {
@@ -93,14 +109,15 @@ a {
   font-size: 36px;
   line-height: 1.16;
 }
-
 .OT_list {
+  display: inline-block;
+}
+.OT_list > h3 {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.18;
 }
 .OT_list > p {
-  font-weight: 400;
   font-size: 16px;
   color: #757575;
 }
@@ -118,18 +135,24 @@ footer > .logo_WS {
   color: rgba(255, 255, 255, 0.6);
 }
 address > a {
-  font-weight: 400;
+  display: block;
   font-size: 14px;
   line-height: 1.71;
 }
 address > a:hover {
-  color: #2196f3;
+  color: var(--link_and_button_color);
+}
+.current {
+  color: var(--link_and_button_color);
 }
 
 /* ⬇ <<PORTFOLIO>> ⬇ */
 
 .title_button > h1 {
   visibility: hidden;
+}
+.TB_list {
+  display: inline-flex;
 }
 .TB_list > button {
   font-weight: 500;
@@ -150,6 +173,9 @@ address > a:hover {
   font-size: 18px;
 }
 .Port_list {
+  display: inline-block;
+  width: 370px;
+  height: 404px;
   text-align: left;
   background: #ffffff;
   border: 1px solid #eeeeee;
@@ -161,7 +187,6 @@ address > a:hover {
   letter-spacing: 0.06em;
 }
 .Port_list > p {
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
   color: #757575;
